@@ -1,19 +1,23 @@
-# AnalytIA Sports Legal Website
+# AnalytIA Sports Website
 
-Repositorio de la web oficial/legal mínima de AnalytIA Sports.
+Web oficial y legal de AnalytIA Sports.
 
-Esta web está pensada para funcionar como sitio estático en GitHub Pages y para
-servir las URLs legales necesarias antes de publicar la app en Google Play.
+El sitio está preparado como web estática para GitHub Pages y para funcionar
+más adelante bajo el dominio:
+
+```text
+https://analytiasports.com
+```
 
 No usa backend, base de datos, cookies, analytics, JavaScript ni dependencias
 externas obligatorias.
 
-## Páginas incluidas
+## Páginas
 
 - `index.html`: página principal.
 - `privacy-policy.html`: política de privacidad.
 - `terms.html`: términos y condiciones.
-- `delete-account.html`: solicitud de eliminación de cuenta.
+- `delete-account.html`: eliminación de cuenta.
 - `support.html`: soporte.
 - `404.html`: página de error.
 - `assets/css/styles.css`: estilos.
@@ -26,12 +30,9 @@ En GitHub:
 Settings → Pages → Deploy from branch → main → root
 ```
 
-Cuando GitHub Pages esté activo, la web funcionará con la URL temporal del
-repositorio.
+## URLs
 
-## URLs futuras con dominio propio
-
-Cuando el dominio esté conectado:
+Con dominio propio:
 
 - `https://analytiasports.com`
 - `https://analytiasports.com/privacy-policy.html`
@@ -39,23 +40,9 @@ Cuando el dominio esté conectado:
 - `https://analytiasports.com/delete-account.html`
 - `https://analytiasports.com/support.html`
 
-## Checklist antes de Google Play
+## Revisión de publicación
 
-- Completar responsable legal definitivo.
-- Confirmar que `soporte@analytiasports.com` existe y recibe emails.
-- Revisar textos legales con asesoría legal/compliance si procede.
-- Conectar el dominio `https://analytiasports.com`.
+- Confirmar que `soporte@analytiasports.com` recibe emails.
 - Comprobar que todas las páginas son públicas y funcionan en HTTPS.
-- Comprobar enlaces desde la app hacia:
-  - Política de privacidad.
-  - Términos.
-  - Eliminación de cuenta.
-  - Soporte.
-- No añadir enlaces a servicios de apuestas, comunidades externas de pago,
-  afiliados, pagos externos ni promesas de beneficio económico.
-
-## Notas
-
-Los textos incluidos son una base operativa para publicación inicial. No
-incluyen empresa, CIF, dirección fiscal ni razón social porque esos datos no
-están definidos en este repositorio.
+- Conectar los enlaces legales desde la app.
+- Revisar periódicamente los textos legales si cambia el servicio.
