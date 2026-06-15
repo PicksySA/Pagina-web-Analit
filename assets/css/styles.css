@@ -2499,3 +2499,45 @@ body {
     flex-wrap: wrap;
   }
 }
+
+/* Minimal header for legal/support utility pages. */
+.legal-header {
+  background: rgba(2, 10, 18, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.legal-nav {
+  display: flex;
+  align-items: center;
+  min-height: 96px;
+}
+
+.legal-brand {
+  display: inline-flex;
+  align-items: center;
+  width: clamp(190px, 18vw, 260px);
+}
+
+.legal-brand:hover {
+  text-decoration: none;
+}
+
+.legal-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.legal-footer {
+  margin-top: 56px;
+}
+
+@media (max-width: 720px) {
+  .legal-nav {
+    min-height: 78px;
+  }
+
+  .legal-brand {
+    width: 190px;
+  }
+}
