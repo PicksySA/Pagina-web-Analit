@@ -1157,3 +1157,308 @@ ul {
     width: 178px;
   }
 }
+
+/* Landing mockup pass: compact, wide composition like the provided reference. */
+body {
+  background: #03101c;
+}
+
+.site-header {
+  background: rgba(2, 10, 18, 0.86);
+  border-bottom: 0;
+}
+
+.nav {
+  min-height: 92px;
+  grid-template-columns: 250px minmax(0, 1fr) 222px;
+}
+
+.brand {
+  width: 230px;
+}
+
+.nav-links {
+  gap: clamp(22px, 3.3vw, 48px);
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.nav-links a::after {
+  bottom: -16px;
+  height: 2px;
+}
+
+.store-badge.compact {
+  min-width: 222px;
+  min-height: 62px;
+  padding: 8px 18px;
+  font-size: 24px;
+  border-color: #d89535;
+  background: rgba(6, 17, 29, 0.82);
+}
+
+.store-badge.compact svg {
+  width: 42px;
+  height: 46px;
+}
+
+.mockup-home {
+  min-height: 510px;
+}
+
+.mockup-home .hero-bg {
+  background:
+    linear-gradient(100deg, rgba(2, 10, 19, 0.97) 0%, rgba(3, 17, 31, 0.93) 45%, rgba(4, 18, 29, 0.72) 100%),
+    radial-gradient(ellipse at 69% 48%, rgba(255, 255, 255, 0.2), transparent 4rem),
+    radial-gradient(ellipse at 88% 43%, rgba(255, 255, 255, 0.18), transparent 3.2rem),
+    linear-gradient(180deg, #061a2d, #020912);
+}
+
+.mockup-home .hero-bg::before {
+  right: -4%;
+  bottom: -9%;
+  left: 20%;
+  height: 310px;
+  opacity: 0.6;
+  background:
+    radial-gradient(ellipse at 62% 0, rgba(255, 255, 255, 0.72), transparent 5%),
+    radial-gradient(ellipse at 80% 1%, rgba(255, 255, 255, 0.46), transparent 7%),
+    linear-gradient(0deg, rgba(43, 116, 76, 0.34), transparent 50%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0 1px, transparent 1px 22px),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.07) 0 1px, transparent 1px 42px);
+}
+
+.mockup-home .hero-bg::after {
+  right: -2%;
+  bottom: 27%;
+  left: 39%;
+  height: 140px;
+  opacity: 0.54;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.95) 0 2px, transparent 3px) 0 0 / 54px 18px,
+    linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.18), transparent);
+}
+
+.pitch-light {
+  position: absolute;
+  width: 210px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  filter: blur(3px);
+  transform: rotate(-8deg);
+}
+
+.light-a {
+  right: 34%;
+  top: 210px;
+}
+
+.light-b {
+  right: 7%;
+  top: 244px;
+}
+
+.gold-line {
+  position: absolute;
+  right: -50px;
+  bottom: 98px;
+  width: 360px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(242, 184, 77, 0.9));
+  transform: rotate(-56deg);
+  transform-origin: right center;
+}
+
+.line-b {
+  right: -24px;
+  bottom: 60px;
+}
+
+.line-c {
+  right: 32px;
+  bottom: 30px;
+  opacity: 0.75;
+}
+
+.mockup-home .hero-grid {
+  grid-template-columns: minmax(585px, 0.98fr) minmax(600px, 1.02fr);
+  gap: 12px;
+  min-height: 500px;
+  padding: 10px 0 0;
+}
+
+.mockup-home .hero-copy-block {
+  align-self: start;
+  padding-top: 38px;
+  max-width: 640px;
+}
+
+.mockup-home h1 {
+  max-width: 640px;
+  margin-bottom: 18px;
+  font-size: clamp(46px, 3.9vw, 58px);
+  line-height: 1.05;
+}
+
+.mockup-home .hero-rule {
+  width: 70px;
+  height: 3px;
+  margin-bottom: 22px;
+}
+
+.mockup-home .hero-copy {
+  max-width: 590px;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 1.38;
+}
+
+.mockup-home .actions {
+  gap: 20px;
+  margin-top: 26px;
+  flex-wrap: nowrap;
+}
+
+.store-badge.large {
+  min-width: 248px;
+  min-height: 66px;
+  padding: 11px 18px;
+  font-size: 24px;
+  border-color: #d89535;
+  background: linear-gradient(135deg, #f2c262, #b97827);
+}
+
+.store-badge.large svg {
+  width: 42px;
+  height: 46px;
+}
+
+.button.ghost {
+  min-width: 268px;
+  min-height: 64px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background: rgba(4, 15, 27, 0.64);
+  border-color: #d89535;
+}
+
+.device-stage {
+  min-height: 500px;
+}
+
+.phone {
+  width: 318px;
+  border-radius: 38px;
+  border-color: rgba(255, 255, 255, 0.38);
+}
+
+.phone-main {
+  right: 275px;
+  top: -28px;
+  transform: rotate(-4.4deg);
+}
+
+.phone-side {
+  right: 18px;
+  top: -4px;
+  width: 296px;
+  transform: rotate(7.5deg);
+}
+
+.phone-shell {
+  min-height: 492px;
+  padding: 25px 17px 18px;
+  border-radius: 36px;
+}
+
+.phone-side .phone-shell {
+  min-height: 456px;
+}
+
+.fixture-time strong {
+  font-size: 19px;
+}
+
+.phone-panel {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.insight-card {
+  margin-top: 10px;
+  padding: 13px;
+}
+
+.feature-strip {
+  position: relative;
+  z-index: 3;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: -26px;
+  margin-bottom: 14px;
+}
+
+.feature-card {
+  min-height: 104px;
+  padding: 18px 20px;
+  border-color: rgba(255, 255, 255, 0.15);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.028)),
+    rgba(8, 25, 43, 0.84);
+}
+
+.feature-card h2 {
+  font-size: 16px;
+}
+
+.feature-card p {
+  font-size: 14px;
+}
+
+.section-divider {
+  margin: 4px 0 10px;
+}
+
+.upcoming-grid {
+  gap: 16px;
+}
+
+.upcoming-grid .feature-card {
+  min-height: 104px;
+}
+
+.play-banner {
+  grid-template-columns: 330px 1fr 186px;
+  min-height: 90px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  padding: 14px 42px;
+}
+
+.site-footer {
+  background: rgba(4, 16, 27, 0.96);
+}
+
+.footer-content {
+  min-height: 78px;
+  padding: 10px 0 2px;
+}
+
+.copyright {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1240px) {
+  .mockup-home .hero-grid {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .mockup-home .hero-copy-block {
+    padding-top: 24px;
+  }
+
+  .device-stage {
+    min-height: 500px;
+  }
+}
