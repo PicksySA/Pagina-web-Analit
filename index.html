@@ -15,45 +15,145 @@
     />
     <meta property="og:type" content="website" />
     <link rel="icon" href="assets/analytia_icon.png" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=mockup-fullscreen-2" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=layered-top-1" />
   </head>
-  <body class="mockup-image-page">
-    <main class="mockup-artboard" aria-label="AnalytIA Sports">
-      <img
-        src="assets/landing-mockup.png?v=mockup-fullscreen-2"
-        alt="AnalytIA Sports. Análisis deportivo prepartido con IA, próximamente en Google Play."
-      />
+  <body class="layered-landing">
+    <header class="layer-header">
+      <nav class="layer-wrap layer-nav" aria-label="Navegación principal">
+        <a class="layer-brand" href="index.html" aria-label="AnalytIA Sports inicio">
+          <img src="assets/analytia_logo_clean.png" alt="AnalytIA Sports" />
+        </a>
+        <div class="layer-links">
+          <a href="index.html" aria-current="page">Inicio</a>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#capturas">Capturas</a>
+          <a href="#novedades">Novedades</a>
+          <a href="support.html">Soporte</a>
+        </div>
+        <a class="layer-store layer-store-top" href="#google-play">
+          <svg viewBox="0 0 36 40" aria-hidden="true">
+            <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+            <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+            <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+            <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+          </svg>
+          <span><small>Próximamente</small>Google Play</span>
+        </a>
+      </nav>
+    </header>
 
-      <a class="mockup-hotspot nav-home" href="index.html" aria-label="Inicio"></a>
-      <a class="mockup-hotspot nav-features" href="#features-info" aria-label="Funcionalidades"></a>
-      <a class="mockup-hotspot nav-shots" href="#features-info" aria-label="Capturas"></a>
-      <a class="mockup-hotspot nav-news" href="#features-info" aria-label="Novedades"></a>
-      <a class="mockup-hotspot nav-support" href="support.html" aria-label="Soporte"></a>
+    <main>
+      <section id="capturas" class="layer-hero">
+        <div class="layer-bg" aria-hidden="true"></div>
+        <div class="layer-wrap layer-hero-grid">
+          <div class="layer-copy">
+            <h1>Análisis deportivo prepartido con <span>IA</span></h1>
+            <span class="layer-rule" aria-hidden="true"></span>
+            <p>
+              Estadísticas, probabilidades e insights claros para entender cada
+              partido antes de que empiece.
+              <strong>Información inteligente para fanáticos exigentes.</strong>
+            </p>
+            <div class="layer-actions">
+              <a class="layer-store layer-store-hero" href="#google-play">
+                <svg viewBox="0 0 36 40" aria-hidden="true">
+                  <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+                  <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+                  <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+                  <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+                </svg>
+                <span><small>Próximamente en</small>Google Play</span>
+              </a>
+              <a class="layer-button" href="#funcionalidades">
+                Ver funcionalidades
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h12m-5-5 5 5-5 5" />
+                </svg>
+              </a>
+            </div>
+          </div>
 
-      <a class="mockup-hotspot play-top" href="#google-play-info" aria-label="Próximamente en Google Play"></a>
-      <a class="mockup-hotspot play-hero" href="#google-play-info" aria-label="Próximamente en Google Play"></a>
-      <a class="mockup-hotspot cta-features" href="#features-info" aria-label="Ver funcionalidades"></a>
-      <a class="mockup-hotspot play-banner-link" href="#google-play-info" aria-label="Próximamente en Google Play"></a>
+          <div class="layer-phones" aria-hidden="true">
+            <img src="assets/phones-mockup.png?v=layered-top-1" alt="" />
+          </div>
+        </div>
+      </section>
 
-      <a class="mockup-hotspot footer-privacy" href="privacy-policy.html" aria-label="Privacidad"></a>
-      <a class="mockup-hotspot footer-terms" href="terms.html" aria-label="Términos"></a>
-      <a class="mockup-hotspot footer-delete" href="delete-account.html" aria-label="Eliminar cuenta"></a>
-      <a class="mockup-hotspot footer-support" href="support.html" aria-label="Soporte"></a>
+      <section id="funcionalidades" class="layer-wrap layer-feature-grid">
+        <article class="layer-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5h16v14H4Zm3-4 3-3 3 2 4-6m-9 8h10" /></svg>
+          <div><h2>Análisis prepartido</h2><p>Todo lo que necesitas saber antes del pitazo inicial.</p></div>
+        </article>
+        <article class="layer-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v9h9A9 9 0 1 1 12 3Zm3 0a9 9 0 0 1 6 6h-6V3Z" /></svg>
+          <div><h2>Estadísticas claras</h2><p>Datos relevantes presentados de forma simple y visual.</p></div>
+        </article>
+        <article class="layer-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 1 0-9-9m9 9 4-9-4-2-2 4-5 2m12-9 2-2m-2 2-2 2" /></svg>
+          <div><h2>Probabilidades orientativas</h2><p>Modelos con IA que estiman escenarios del partido.</p></div>
+        </article>
+        <article class="layer-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 16.9l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z" /></svg>
+          <div><h2>Favoritos y seguimiento</h2><p>Sigue tus equipos y partidos importantes fácilmente.</p></div>
+        </article>
+      </section>
+
+      <section id="novedades" class="layer-wrap layer-upcoming">
+        <div class="layer-divider"><span>Próximamente</span></div>
+        <div class="layer-upcoming-grid">
+          <article class="layer-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Zm-8 13h4" /></svg>
+            <div><h2>Alertas inteligentes</h2><p>Recibe notificaciones sobre partidos clave, alineaciones y noticias importantes.</p></div>
+            <span>Próximamente</span>
+          </article>
+          <article class="layer-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h4v-6H4v6Zm6 0h4V5h-4v14Zm6 0h4V9h-4v10Z" /></svg>
+            <div><h2>Comparaciones avanzadas</h2><p>Compara equipos, jugadores y estadísticas en profundidad.</p></div>
+            <span>Próximamente</span>
+          </article>
+          <article class="layer-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 0 3 6-3 3-3-3 3-6Zm0 18 3-6-3-3-3 3 3 6Zm9-9-6 3-3-3 3-3 6 3ZM3 12l6-3 3 3-3 3-6-3Z" /></svg>
+            <div><h2>Cobertura de más ligas</h2><p>Más campeonatos, torneos y copas de todo el mundo.</p></div>
+            <span>Próximamente</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="google-play" class="layer-wrap layer-play-banner">
+        <a class="layer-store layer-store-banner" href="#google-play">
+          <svg viewBox="0 0 36 40" aria-hidden="true">
+            <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+            <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+            <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+            <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+          </svg>
+          <span><small>Próximamente en</small>Google Play</span>
+        </a>
+        <p>
+          AnalytIA Sports estará disponible muy pronto en Google Play.
+          <strong>Descárgala y lleva el análisis prepartido con IA a donde vayas.</strong>
+        </p>
+        <span class="layer-outline">Próximamente</span>
+      </section>
     </main>
 
-    <section id="features-info" class="screen-reader-content">
-      <h1>AnalytIA Sports</h1>
-      <p>
-        Análisis deportivo prepartido con inteligencia artificial, estadísticas
-        claras, probabilidades orientativas, favoritos y seguimiento de partidos.
-      </p>
-    </section>
-
-    <section id="google-play-info" class="screen-reader-content">
-      <h2>Próximamente en Google Play</h2>
-      <p>
-        AnalytIA Sports estará disponible muy pronto en Google Play.
-      </p>
-    </section>
+    <footer class="layer-footer">
+      <div class="layer-wrap layer-footer-grid">
+        <div class="layer-footer-brand">
+          <img src="assets/analytia_logo_clean.png" alt="AnalytIA Sports" />
+          <p>Análisis deportivo prepartido con inteligencia artificial. Información clara. Decisiones más inteligentes.</p>
+        </div>
+        <div class="layer-social" aria-label="Redes sociales">
+          <span>X</span><span>IG</span><span>YT</span><span>TT</span>
+        </div>
+        <div class="layer-footer-links">
+          <a href="privacy-policy.html">Privacidad</a>
+          <a href="terms.html">Términos</a>
+          <a href="delete-account.html">Eliminar cuenta</a>
+          <a href="support.html">Soporte</a>
+        </div>
+      </div>
+      <p class="layer-copyline">© 2025 AnalytIA Sports. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
