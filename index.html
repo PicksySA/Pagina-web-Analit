@@ -3,121 +3,268 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnalytIA Sports | Análisis deportivo prepartido</title>
+    <title>AnalytIA Sports | Análisis deportivo prepartido con IA</title>
     <meta
       name="description"
-      content="AnalytIA Sports ofrece análisis deportivo, estadísticas y probabilidades prepartido con fines informativos."
+      content="AnalytIA Sports ofrece análisis deportivo prepartido con IA, estadísticas claras, probabilidades orientativas y seguimiento de favoritos."
     />
     <meta property="og:title" content="AnalytIA Sports" />
     <meta
       property="og:description"
-      content="Análisis deportivo, estadísticas y probabilidades prepartido."
+      content="Análisis deportivo prepartido con IA, estadísticas y probabilidades claras antes de cada encuentro."
     />
     <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/analytia_icon.png" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav container" aria-label="Navegación principal">
-        <a class="brand" href="index.html" aria-label="AnalytIA Sports inicio">
-          <span class="brand-mark">AI</span>
-          <span>AnalytIA Sports</span>
+        <a class="brand" href="#inicio" aria-label="AnalytIA Sports inicio">
+          <img
+            class="brand-logo"
+            src="assets/analytia_logo_clean.png"
+            alt="AnalytIA Sports"
+          />
         </a>
         <div class="nav-links">
-          <a href="privacy-policy.html">Privacidad</a>
-          <a href="terms.html">Términos</a>
-          <a href="delete-account.html">Eliminar cuenta</a>
+          <a href="#inicio" aria-current="page">Inicio</a>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#capturas">Capturas</a>
+          <a href="#novedades">Novedades</a>
           <a href="support.html">Soporte</a>
         </div>
+        <a class="store-badge compact" href="#google-play" aria-label="Próximamente en Google Play">
+          <svg viewBox="0 0 36 40" aria-hidden="true">
+            <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+            <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+            <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+            <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+          </svg>
+          <span><small>Próximamente</small>Google Play</span>
+        </a>
       </nav>
     </header>
 
     <main>
-      <section class="hero container">
-        <div class="hero-content">
-          <p class="eyebrow">Inteligencia deportiva</p>
-          <h1>AnalytIA Sports</h1>
-          <p class="hero-claim">
-            Análisis deportivo, estadísticas y probabilidades prepartido.
-          </p>
-          <p class="hero-copy">
-            Una experiencia clara para consultar datos deportivos antes del
-            partido, con enfoque informativo y lectura sencilla.
-          </p>
-          <div class="actions" aria-label="Enlaces legales principales">
-            <a class="button primary" href="privacy-policy.html"
-              >Política de privacidad</a
-            >
-            <a class="button" href="terms.html">Términos y condiciones</a>
-            <a class="button" href="delete-account.html">Eliminar cuenta</a>
-            <a class="button" href="support.html">Soporte</a>
+      <section id="inicio" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy-block">
+            <h1>Análisis deportivo prepartido con <span>IA</span></h1>
+            <p class="hero-rule" aria-hidden="true"></p>
+            <p class="hero-copy">
+              Estadísticas, probabilidades e insights claros para entender cada
+              partido antes de que empiece.
+              <strong>Información inteligente para fanáticos exigentes.</strong>
+            </p>
+            <div class="actions">
+              <a class="store-badge large" href="#google-play">
+                <svg viewBox="0 0 36 40" aria-hidden="true">
+                  <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+                  <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+                  <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+                  <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+                </svg>
+                <span><small>Próximamente en</small>Google Play</span>
+              </a>
+              <a class="button ghost" href="#funcionalidades">
+                Ver funcionalidades
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h12m-5-5 5 5-5 5" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div id="capturas" class="device-stage" aria-label="Capturas simuladas de la app">
+            <article class="phone phone-main" aria-label="Resumen prepartido">
+              <div class="phone-shell">
+                <div class="phone-status">
+                  <span>Premier League</span>
+                  <span>•••</span>
+                </div>
+                <p class="phone-kicker">Jornada 36</p>
+                <div class="fixture">
+                  <div>
+                    <span class="crest blue">MC</span>
+                    <strong>Man City</strong>
+                  </div>
+                  <div class="fixture-time">
+                    <small>Dom 11 May</small>
+                    <strong>17:30</strong>
+                    <small>Etihad Stadium</small>
+                  </div>
+                  <div>
+                    <span class="crest red">ARS</span>
+                    <strong>Arsenal</strong>
+                  </div>
+                </div>
+                <div class="phone-tabs">
+                  <span>Resumen</span>
+                  <span>Estadísticas</span>
+                  <span>H2H</span>
+                  <span>Forma</span>
+                </div>
+                <section class="phone-panel">
+                  <h2>Probabilidades</h2>
+                  <div class="prob-grid">
+                    <div><span>Local</span><strong class="green">45%</strong></div>
+                    <div><span>Empate</span><strong>28%</strong></div>
+                    <div><span>Visitante</span><strong class="gold">27%</strong></div>
+                  </div>
+                </section>
+                <section class="phone-panel">
+                  <h2>Forma reciente</h2>
+                  <div class="form-row">
+                    <span>Man City</span>
+                    <i class="win">G</i><i class="draw">E</i><i class="win">G</i><i class="loss">P</i>
+                  </div>
+                  <div class="form-row">
+                    <span>Arsenal</span>
+                    <i class="draw">E</i><i class="draw">E</i><i class="win">G</i><i class="draw">E</i><i class="loss">P</i>
+                  </div>
+                </section>
+                <section class="phone-panel">
+                  <h2>Datos clave</h2>
+                  <div class="bar-stat"><span>2.10</span><b style="--w: 70%"></b><span>1.68</span></div>
+                  <div class="bar-stat"><span>1.02</span><b style="--w: 53%"></b><span>0.94</span></div>
+                  <div class="bar-stat"><span>61%</span><b style="--w: 61%"></b><span>57%</span></div>
+                </section>
+              </div>
+            </article>
+
+            <article class="phone phone-side" aria-label="Insights del partido">
+              <div class="phone-shell">
+                <div class="phone-status">
+                  <span>Insights</span>
+                  <span>•••</span>
+                </div>
+                <section class="insight-card">
+                  <small>Tendencia</small>
+                  <p>Man City ha ganado 4 de los últimos 5 partidos como local.</p>
+                </section>
+                <section class="insight-card">
+                  <small>Duelo clave</small>
+                  <p>Haaland ha marcado 6 goles en los últimos 5 enfrentamientos.</p>
+                </section>
+                <section class="insight-card">
+                  <small>Dato destacado</small>
+                  <p>Arsenal mantiene su arco en cero en el 40% de sus partidos.</p>
+                </section>
+                <section class="insight-card">
+                  <small>Recomendación</small>
+                  <p>Partido con alta probabilidad de más de 2.5 goles.</p>
+                </section>
+                <button class="favorite-button" type="button">Agregar a Favoritos</button>
+              </div>
+            </article>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Resumen del servicio">
-          <div class="metric-card">
-            <span class="metric-label">Enfoque</span>
-            <strong>Prepartido</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Contenido</span>
-            <strong>Estadísticas y probabilidades</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Uso</span>
-            <strong>Informativo</strong>
-          </div>
-        </aside>
       </section>
 
-      <section class="container section-grid" aria-label="Información legal">
-        <article class="card">
-          <h2>Privacidad</h2>
-          <p>
-            Información esencial sobre los datos que pueden tratarse para operar
-            la app y gestionar la cuenta.
-          </p>
-          <a href="privacy-policy.html">Leer política</a>
+      <section id="funcionalidades" class="container feature-strip" aria-label="Funcionalidades principales">
+        <article class="feature-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5h16v14H4Zm3-4 3-3 3 2 4-6m-9 8h10" /></svg>
+          <div>
+            <h2>Análisis prepartido</h2>
+            <p>Todo lo que necesitas saber antes del pitazo inicial.</p>
+          </div>
         </article>
-        <article class="card">
-          <h2>Términos</h2>
-          <p>
-            Condiciones de uso del servicio y alcance informativo de los
-            análisis mostrados en la app.
-          </p>
-          <a href="terms.html">Leer términos</a>
+        <article class="feature-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v9h9A9 9 0 1 1 12 3Zm3 0a9 9 0 0 1 6 6h-6V3Z" /></svg>
+          <div>
+            <h2>Estadísticas claras</h2>
+            <p>Datos relevantes presentados de forma simple y visual.</p>
+          </div>
         </article>
-        <article class="card">
-          <h2>Cuenta</h2>
-          <p>
-            Consulta cómo solicitar la eliminación de cuenta o contactar con
-            soporte.
-          </p>
-          <a href="delete-account.html">Gestionar cuenta</a>
+        <article class="feature-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 1 0-9-9m9 9 4-9-4-2-2 4-5 2m12-9 2-2m-2 2-2 2" /></svg>
+          <div>
+            <h2>Probabilidades orientativas</h2>
+            <p>Modelos con IA que estiman escenarios del partido.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 16.9l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z" /></svg>
+          <div>
+            <h2>Favoritos y seguimiento</h2>
+            <p>Sigue tus equipos y partidos importantes fácilmente.</p>
+          </div>
         </article>
       </section>
 
-      <section class="container">
-        <div class="notice">
-          <h2>Uso informativo</h2>
-          <p>
-            AnalytIA Sports ofrece análisis estadísticos y probabilidades
-            deportivas con fines informativos. Las predicciones no garantizan
-            resultados ni sustituyen el criterio del usuario.
-          </p>
+      <section id="novedades" class="container upcoming-section">
+        <div class="section-divider"><span>Próximamente</span></div>
+        <div class="upcoming-grid">
+          <article class="feature-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Zm-8 13h4" /></svg>
+            <div>
+              <h2>Alertas inteligentes</h2>
+              <p>Recibe notificaciones sobre partidos clave, alineaciones y noticias importantes.</p>
+            </div>
+            <span class="soon-pill">Próximamente</span>
+          </article>
+          <article class="feature-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h4v-6H4v6Zm6 0h4V5h-4v14Zm6 0h4V9h-4v10Z" /></svg>
+            <div>
+              <h2>Comparaciones avanzadas</h2>
+              <p>Compara equipos, jugadores y estadísticas en profundidad.</p>
+            </div>
+            <span class="soon-pill">Próximamente</span>
+          </article>
+          <article class="feature-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 0 3 6-3 3-3-3 3-6Zm0 18 3-6-3-3-3 3 3 6Zm9-9-6 3-3-3 3-3 6 3ZM3 12l6-3 3 3-3 3-6-3Z" /></svg>
+            <div>
+              <h2>Cobertura de más ligas</h2>
+              <p>Más campeonatos, torneos y copas de todo el mundo.</p>
+            </div>
+            <span class="soon-pill">Próximamente</span>
+          </article>
         </div>
+      </section>
+
+      <section id="google-play" class="container play-banner">
+        <a class="store-badge footer-store" href="#google-play" aria-label="Próximamente en Google Play">
+          <svg viewBox="0 0 36 40" aria-hidden="true">
+            <path fill="#31d27c" d="M3 2l18 18L3 38z" />
+            <path fill="#32a7ff" d="M3 2l23 13-5 5z" />
+            <path fill="#ffd34d" d="M21 20l5 5L3 38z" />
+            <path fill="#ff6f4f" d="M26 15l7 4a2 2 0 010 2l-7 4-5-5z" />
+          </svg>
+          <span><small>Próximamente en</small>Google Play</span>
+        </a>
+        <p>
+          AnalytIA Sports estará disponible muy pronto en Google Play.
+          <strong>Descárgala y lleva el análisis prepartido con IA a donde vayas.</strong>
+        </p>
+        <span class="outline-pill">Próximamente</span>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-content">
-        <span>© 2026 AnalytIA Sports</span>
+        <div class="footer-brand">
+          <img src="assets/analytia_logo_clean.png" alt="AnalytIA Sports" />
+          <p>
+            Análisis deportivo prepartido con inteligencia artificial.
+            Información clara. Decisiones más inteligentes.
+          </p>
+        </div>
+        <div class="social-links" aria-label="Redes sociales">
+          <span>X</span>
+          <span>IG</span>
+          <span>YT</span>
+          <span>TT</span>
+        </div>
         <div class="footer-links">
-          <a href="privacy-policy.html">Política de privacidad</a>
+          <a href="privacy-policy.html">Privacidad</a>
           <a href="terms.html">Términos</a>
           <a href="delete-account.html">Eliminar cuenta</a>
           <a href="support.html">Soporte</a>
         </div>
       </div>
+      <p class="copyright">© 2026 AnalytIA Sports. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>
