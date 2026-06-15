@@ -1716,22 +1716,43 @@ body {
 
 /* Exact mockup version: use the approved artwork as the rendered landing. */
 .mockup-image-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
   background: #020912;
 }
 
+.mockup-image-page::before {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  content: "";
+  background:
+    linear-gradient(90deg, rgba(2, 9, 18, 0.2), rgba(2, 9, 18, 0.04), rgba(2, 9, 18, 0.2)),
+    url("../landing-mockup.png?v=mockup-fullscreen-2") center top / cover no-repeat;
+  filter: blur(18px);
+  opacity: 0.72;
+  transform: scale(1.05);
+}
+
 .mockup-artboard {
   position: relative;
-  width: 100vw;
+  z-index: 1;
+  width: min(100vw, 133.333vh);
+  max-width: none;
   margin: 0;
   background: #020912;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.42);
 }
 
 .mockup-artboard img {
   display: block;
   width: 100%;
+  max-width: none;
   height: auto;
   margin: 0;
 }
@@ -1854,5 +1875,11 @@ body {
   .mockup-artboard {
     width: 152vw;
     transform: translateX(-18vw);
+  }
+}
+
+@media (max-aspect-ratio: 4 / 3) {
+  .mockup-artboard {
+    width: 100vw;
   }
 }
