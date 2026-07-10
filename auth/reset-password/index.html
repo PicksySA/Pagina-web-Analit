@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperar contraseña | AnalytIA Sports</title>
+    <meta
+      name="description"
+      content="Redirección segura al flujo de recuperación de contraseña de AnalytIA Sports."
+    />
+    <meta property="og:title" content="Recuperar contraseña | AnalytIA Sports" />
+    <meta
+      property="og:description"
+      content="Continúa en AnalytIA Sports para crear una contraseña nueva."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="../../assets/css/styles.css?v=auth-reset-1" />
+    <script>
+      const target = new URL("../../update-password.html", window.location.href);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      window.location.replace(target.toString());
+    </script>
+  </head>
+  <body>
+    <header class="legal-header">
+      <nav class="legal-nav container" aria-label="Navegación principal">
+        <a class="legal-brand" href="../../index.html" aria-label="AnalytIA Sports inicio">
+          <img src="../../assets/analytia_logo_clean.png" alt="AnalytIA Sports" />
+        </a>
+      </nav>
+    </header>
+
+    <main class="container page compact-page">
+      <p class="eyebrow">Recuperación de contraseña</p>
+      <h1>Redirigiendo</h1>
+      <p class="lead">
+        Te estamos llevando al flujo de recuperación de contraseña de AnalytIA
+        Sports.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="../../update-password.html">
+          Continuar
+        </a>
+        <a class="button" href="../../index.html">Volver al inicio</a>
+      </div>
+    </main>
+  </body>
+</html>
