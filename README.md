@@ -68,6 +68,13 @@ antes de depender de este botón en producción.
 
 ## Revisión de publicación
 
+- Identidad confirmada el 2026-09-08: Sergio Serrano Molina y Aaro Gonzalez
+  Andreu como corresponsables del tratamiento, con
+  `soporte@analytiasports.es` como contacto comun. Se han utilizado los nombres
+  exactamente como los ha facilitado el usuario.
+- Pendiente: formalizar el acuerdo de corresponsabilidad y concretar su
+  contenido esencial para los usuarios. No se afirma que este acuerdo ya exista
+  ni que la identificacion complete la revision legal de privacidad.
 - Confirmar que `soporte@analytiasports.es` recibe emails.
 - Comprobar que todas las páginas son públicas y funcionan en HTTPS.
 - Conectar los enlaces legales desde la app.
