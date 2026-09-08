@@ -968,6 +968,20 @@ li {
   margin-top: 18px;
 }
 
+.privacy-contact {
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.privacy-contact h2 {
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
 .notice {
   margin-bottom: 42px;
   border-color: rgba(242, 184, 77, 0.42);

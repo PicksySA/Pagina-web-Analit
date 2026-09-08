@@ -72,10 +72,16 @@ antes de depender de este botón en producción.
   Andreu como corresponsables del tratamiento, con
   `soporte@analytiasports.es` como contacto comun. Se han utilizado los nombres
   exactamente como los ha facilitado el usuario.
+- Presentacion: responsables, derechos y contacto se agrupan al final de la
+  politica, sin desplegable ni caja destacada. La identidad sigue visible y
+  localizable en `privacy-policy.html#privacy-contact`.
+- El correo se muestra una vez en privacidad y en soporte. Los terminos enlazan
+  a soporte; eliminacion conserva su accion directa por email, sin otro bloque
+  de contacto repetido. No cambian las condiciones sustantivas del servicio.
 - Pendiente: formalizar el acuerdo de corresponsabilidad y concretar su
   contenido esencial para los usuarios. No se afirma que este acuerdo ya exista
   ni que la identificacion complete la revision legal de privacidad.
-- Confirmar que `soporte@analytiasports.es` recibe emails.
+- Confirmar que el correo de contacto recibe emails.
 - Comprobar que todas las páginas son públicas y funcionan en HTTPS.
 - Conectar los enlaces legales desde la app.
 - Revisar periódicamente los textos legales si cambia el servicio.
