@@ -1,0 +1,50 @@
+.privacy-document {
+  max-width: 760px;
+  padding-top: 40px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+  letter-spacing: 0;
+}
+
+.privacy-document h1 {
+  color: var(--text);
+  font-size: 30px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.privacy-document .privacy-updated {
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.privacy-document section {
+  margin-top: 32px;
+}
+
+.privacy-document h2 {
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.privacy-document p {
+  margin-bottom: 16px;
+}
+
+.privacy-document ul {
+  margin-bottom: 16px;
+}
+
+.privacy-document li {
+  margin-bottom: 12px;
+}
+
+.privacy-document a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
